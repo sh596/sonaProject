@@ -135,13 +135,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/humidity_icon"
             />
 
         <TextView
             android:id="@+id/humidity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="6dp"
             android:text="습도 50 %"
             android:textSize="18sp"
             android:fontFamily="@font/notosanscjkkrmedium"

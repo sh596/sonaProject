@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 tempMin.setText(String.format("%.0f",weatherData.getMain().getTemp_min())+"°");
                 humidity.setText("습도 "+weatherData.getMain().getHumidity()+" %");
 
-                Toast.makeText(MainActivity.this, weatherData.getWeather().get(0).getMain(), Toast.LENGTH_SHORT).show();
                 setIcon(weatherData.getWeather().get(0).getIcon());
             }
 

@@ -71,10 +71,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="최고기온"
+                android:text="최고 기온"
                 android:textSize="20sp"
                 android:layout_gravity="center"
-                android:fontFamily="@font/notosanscjkkrmedium"
+                android:fontFamily="@font/notosanscjkkrbold"
                 android:includeFontPadding="false"
                 android:textColor="#ffffff"/>
             <TextView
@@ -103,12 +103,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="최소기온"
-                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:fontFamily="@font/notosanscjkkrmedium"
                 android:includeFontPadding="false"
-                android:textColor="#ffffff"/>
+                android:text="최저 기온"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/tempMin"
                 android:layout_width="wrap_content"
@@ -145,7 +146,7 @@
             android:layout_marginLeft="6dp"
             android:text="습도 50 %"
             android:textSize="18sp"
-            android:fontFamily="@font/notosanscjkkrmedium"
+            android:fontFamily="@font/notosanscjkkrbold"
             android:includeFontPadding="false"
             android:lineSpacingExtra="8sp"
             android:textColor="#ffffff"/>

@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setIcon(String icon){
         if (icon.equals("01d") || icon.equals("01n")){
-            Toast.makeText(this, "맑음", Toast.LENGTH_SHORT).show();
+            weatherIcon.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.clear_icon));
         }else if(icon.equals("02d") || icon.equals("02n")){
             weatherIcon.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.few_cloud_icon));
         }else if(icon.equals("03d")|| icon.equals("03n") || icon.equals("04d") || icon.equals("04n")){
